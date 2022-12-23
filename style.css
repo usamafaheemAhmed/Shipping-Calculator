@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Quattrocento:wght@400;700&display=swap');
+
+
+body{
+    /* font-family: 'Oswald', sans-serif; */
+font-family: 'Quattrocento', serif;
+}
+.form-control{
+    border-radius: 0%;
+    height: 50px;
+    background-color: #f2f2f2;
+    color: #02323f;
+    box-shadow: none;
+}
+.form-control:focus{
+    border-radius: 0%;
+    border: 1px solid #52ab98;
+    height: 50px;
+    background-color: #f2f2f2;
+    color: #02323f;
+    box-shadow: none;
+}
+.form-control:hover{
+    border-radius: 5px;
+    border: 1px solid #52ab98;
+    height: 50px;
+    background-color: #f2f2f2;
+    color: #02323f;
+    box-shadow: none;
+}
+
+.btn-primary{
+    border-radius: 0%;
+    height: 50px;
+    background-color: #52ab98;
+    border-color: #52ab98;
+}
+.btn-primary:hover{
+    border-radius: 0%;
+    height: 50px;
+    background-color: #f2f2f2;
+    border-color: #52ab98;
+    color: #52ab98;
+}
+.btn-primary:focus{
+    border-radius: 0%;
+    height: 50px;
+    background-color: #52ab98;
+    border-color: #f2f2f2;
+    color: #f2f2f2;
+    box-shadow: none;
+}
+
+h1{
+    font-family: 'Oswald', sans-serif;
+    font-size: 50px;
+    font-weight: 700;
+    color: #2b6777;
+}
+.img-fluid{
+    height:5%;
+    width:5%;
+}
+
+@media screen and (max-width:390px) {
+    label{
+       margin-top: 4%;
+    }
+    .img-fluid{
+        height:15%;
+        width:15%;
+    }
+}
+footer{
+    background-color: #2b6777;
+    color: #ffff;
+    padding: 20px;
+    font-size: 12px;
+    text-align: center;
+}
