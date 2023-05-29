@@ -53,10 +53,8 @@ function result(){
     height = parseFloat(height.value);
 
 
-
  
-
-
+    
 
     let exchangeRate= 0;
 
